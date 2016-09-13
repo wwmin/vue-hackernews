@@ -20,8 +20,8 @@
     </router-view>
   </div>
 </template>
-
-<style lang="stylus">
+<!--style lang="stylus" 报错,可用  rel="stylesheet/stylus" 解决-->
+<style lang="stylus" rel="stylesheet/stylus">
 @import "../variables.styl"
 
 html, body
